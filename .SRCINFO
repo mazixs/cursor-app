@@ -1,0 +1,20 @@
+pkgbase = cursor-app
+	pkgdesc = The AI-first code editor
+	pkgver = 0.44.9
+	pkgrel = 1
+	url = https://cursor.so
+	arch = x86_64
+	license = custom
+	depends = gtk3
+	depends = libxss
+	depends = gconf
+	depends = nss
+	depends = alsa-lib
+	optdepends = libappindicator-gtk3: for system tray support
+	provides = cursor
+	conflicts = cursor
+	noextract = cursor-0.44.9.AppImage
+	source = cursor-0.44.9.AppImage::https://downloader.cursor.sh/linux/appImage/x64
+	sha256sums = SKIP
+
+pkgname = cursor-app
